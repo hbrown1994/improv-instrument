@@ -1,0 +1,12 @@
+var o, p;
+o = [
+	List.prNew,  Array.prNew(3),  "duo_v0",  "trio_v0",  
+	"solo_v0"
+];
+p = [
+	// List
+	0, [ array: o[1] ],  
+	// Array
+	1, [ o[2],  o[3],  o[4] ]
+];
+prUnarchive(o,p);

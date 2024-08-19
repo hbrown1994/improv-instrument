@@ -1,0 +1,149 @@
+<JZML>
+<PROJECT version="5350" width="1024" height="724" osc_target="-1" midi_target="-1" kbmouse_target="-1" skin="Pixel"/>
+<WINDOW class="JAZZINTERFACE" text="Default" x="0" y="0" width="1024" height="724" state="1" group="0" font="tahoma,11,0" >
+<WINDOW class="Container" text="slot0" x="0" y="0" width="135" height="95" id="1" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="1596013" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="1" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="865343,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot0/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot0/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot0/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot1" x="135" y="0" width="135" height="95" id="2" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="1596013" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="865343,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot1/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot1/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot1/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot2" x="270" y="0" width="135" height="95" id="3" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="1596013" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="865343,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot2/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot2/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot2/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot3" x="405" y="0" width="135" height="95" id="4" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="1596013" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="865343,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot3/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot3/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot3/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot4" x="0" y="95" width="135" height="95" id="5" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="8388608" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="8388608,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot4/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot4/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot4/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot5" x="135" y="95" width="135" height="95" id="6" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="8388608" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="8388608,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot5/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot5/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot5/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot6" x="270" y="95" width="135" height="95" id="7" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="8388608" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="8388608,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot6/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot6/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot6/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot7" x="405" y="95" width="135" height="95" id="8" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="8388608" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="8388608,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot7/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot7/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot7/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot8" x="0" y="190" width="135" height="95" id="9" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="32768" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="32768,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot8/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot8/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot8/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot9" x="135" y="190" width="135" height="95" id="10" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="32768" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="32768,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot9/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot9/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot9/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot10" x="270" y="190" width="135" height="95" id="11" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="32768" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="32768,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot10/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot10/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot10/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot11" x="405" y="190" width="135" height="95" id="12" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="32768" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="32768,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot11/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot11/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot11/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot12" x="0" y="285" width="135" height="95" id="13" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="6501247" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="7807871,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="1.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot12/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot12/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot12/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot13" x="135" y="285" width="135" height="95" id="14" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="6501247" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="7739519,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="1.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot13/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot13/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot13/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot14" x="270" y="285" width="135" height="95" id="15" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="6501247" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="7405692,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="1.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot14/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot14/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot14/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="slot15" x="405" y="285" width="135" height="95" id="16" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="6501247" label="1" tabbar="1" meta="0">
+<WINDOW class="CustomButton" text="ampGate" x="-5" y="-5" width="129" height="90" id="3" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="7671167,8355711" label_off="gate" label_on="gate" outline="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/slot15/ampGate/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/slot15/ampGate/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="zero()" script="state0.x=0;
+state1.x=0;
+state2.x=0;" trigger_script="x" trigger_type="0" trigger="2" clock="0" clock_div="4" osc_message="/slot15/ampGate/zero" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+</WINDOW>
+</WINDOW>
+</WINDOW>
+</JZML>
